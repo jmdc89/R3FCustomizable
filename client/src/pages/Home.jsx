@@ -7,7 +7,7 @@ import { CustomButton } from '../components';
 import {
   headContainerAnimation,
   headContentAnimation,
-  headTextAnimation,
+  headTextAnimation, 
   slideAnimation
 } from '../config/motion';
 
@@ -38,7 +38,12 @@ const Home = () => {
                 Create your unique prefab home with our brank new customization tool. <strong>Unleash your imagination</strong>{""} and define your own style.
               </p>
 
-              <CustomButton />
+              <CustomButton
+                type="filled"
+                title="Customize It"
+                handleClick={() => state.intro = false}
+                customStyles="w-fit px-4 py-2.5 font-bold text-sm"
+              />
 
             </motion.div>
 
