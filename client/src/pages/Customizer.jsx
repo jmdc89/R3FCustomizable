@@ -18,7 +18,17 @@ const Customizer = () => {
     <AnimatePresence>
       {!snap.intro && (
         <>
-          Customizer
+          <motion.div
+            key="custom"
+            className="absolute top-0 left-0 z-10"
+            {...slideAnimation('left')}
+          >
+            <div>
+              <div>
+
+              </div>
+            </div>
+          </motion.div>
         </>
       )}
 
