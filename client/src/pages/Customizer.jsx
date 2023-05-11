@@ -23,8 +23,8 @@ const Customizer = () => {
             className="absolute top-0 left-0 z-10"
             {...slideAnimation('left')}
           >
-            <div>
-              <div>
+            <div className="flex items-center min-h-screen">
+              <div className="editortabs-container tabs">
 
               </div>
             </div>
