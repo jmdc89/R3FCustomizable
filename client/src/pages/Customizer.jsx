@@ -12,8 +12,17 @@ import { fadeAnimation, slideAnimation } from '../config/motion';
 
 
 const Customizer = () => {
+  const snap = useSnapshot(state);
+
   return (
-    <div>Customizer</div>
+    <AnimatePresence>
+      {!snap.intro && (
+        <>
+          Customizer
+        </>
+      )}
+
+    </AnimatePresence>
   )
 }
 
