@@ -35,6 +35,13 @@ const Customizer = () => {
               </div>
             </div>
           </motion.div>
+
+          <motion.div
+            className="absolute z-10 top-5 right-5"
+            {...fadeAnimation}
+          >
+
+          </motion.div>
         </>
       )}
 
