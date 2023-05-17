@@ -18,6 +18,8 @@ const CameraRig = ({children}) => {
     delta
   )
 
+  //min59
+
   return <group ref={group}>{children}</group>
 }
 
